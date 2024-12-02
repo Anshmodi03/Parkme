@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",         // Development mode
-    "build": "vite build", // Build script (optional, only if you want to create a build locally)
-    "lint": "eslint .",    // Linting script
-    "preview": "vite preview",  // Preview mode for production (used by Vercel)
-    "start": "vite preview" // Start script used by Vercel in production
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
